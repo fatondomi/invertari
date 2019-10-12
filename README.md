@@ -1,2 +1,2 @@
 # invertari
-Programi per organizimit te invertarit
+Programi per organizimin e invertarit
