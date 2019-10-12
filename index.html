@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Invertari i Laboratorit t&#235 Mekatronik&#235s</title>
+	
+	<!-- Funksionet e ndryshme te faqes -->
+	<script type="text/javascript" src="./pageResources/pageFunctions.js"></script>
+</head>
+
+
+<body>
+
+	<img Id="logoImage" src="./pageResources/images/upLogo.png"></img>
+	<h2 Id="logoText">Invertari i Laboratorit t&#235 Mekatronik&#235s</h2>
+
+	<div id="divGroups">
+        <input type="text" id="searchTextBox" />
+        <input type="submit" id="searchButton" value="K&#235rko" />
+		<ul id="ulGroups">
+		</ul>
+	</div>
+
+	<div id="divControlPanel">
+	</div>
+	
+	<a id="goUp" onclick="window.scrollTo(0,0)" style="position:absolute;top:2000px;">Shko lart&#235</a>
+
+	<!-- Lidhja e faqes me evente -->
+	<script>
+		
+		//filling the group's list
+		showGroups();
+		
+		//filling the body with the articles
+		showArticles(currentGroup);
+
+		//showing info in the control panel
+		showArticleInfoAfter(1);
+
+		document.getElementById("logoImage").onclick = logoClicked;
+		document.getElementById("searchButton").onclick = searchPressed;
+	</script>
+
+	<!-- Lidhja e faqes me style sheet -->
+	<link rel="stylesheet" type="text/css" href="./pageResources/pageStyleSheet.css"/>
+</body>
+
+</html>

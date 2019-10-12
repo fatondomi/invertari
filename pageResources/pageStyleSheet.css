@@ -1,0 +1,349 @@
+
+html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#logoImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 50%;
+    width: 224px;
+    height: 225px;
+    cursor: pointer;
+} 
+
+#logoText {
+    text-align: center;
+    font-family: Segoe UI;
+    font-weight: 400;
+    color: rgba(20, 20, 20, 1);
+    cursor: default;
+}
+
+#divGroups {
+    border: 3px solid rgba(50, 50, 50, 1);
+    border-radius: 7px;
+    position: fixed;
+    top: 35%;
+    left: 3%;
+    width: 20%;
+    height: 35%;
+    overflow: auto;
+    box-shadow: 3px 4px rgba(200, 200, 200, 1);
+    background: white;
+    font-family: Segoe UI;
+}
+
+#divControlPanel {
+    border: 3px solid rgba(50, 50, 50, 1);
+    border-radius: 7px;
+    position: fixed;
+    top: 35%;
+    right: 3%;
+    width: 25%;
+    height: 50%;
+    overflow: auto;
+    box-shadow: 3px 4px rgba(200, 200, 200, 1);
+    background: white;
+    font-family: Segoe UI;
+    padding: 0px;
+    margin: 0px;
+}
+
+.articleDivs {
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    left: 27.3%;
+    border: 3px solid rgba(50, 50, 50, 1);
+    border-radius : 7px;
+    box-shadow : 3px 4px rgba(200, 200, 200, 1);
+    font-family : Segoe UI;
+}
+
+.articleIdNumber {
+    line-height: 25px;
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    text-align:center; 
+    cursor: default;
+}
+
+.articleName {
+    font-size : 18px;
+    line-height: 18px;
+    font-weight : 400;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    text-align:center;
+    cursor: default;
+}
+
+.articleImage {
+    display: block;
+    height : 70%;
+    max-width: 100%;
+    margin-top : 100px;
+    margin-right : auto;
+    margin-left : auto;
+}
+
+.groupListElement {
+    color:black;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left:10%;
+    list-style: none;
+    width :90%;
+    cursor: pointer;
+}
+
+#searchTextBox {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 55%;
+}
+
+#searchButton {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    width : 20%;
+    background: white;
+    font-family: Segoe Ui;
+    border-radius: 5px;
+}
+
+#goUp {
+    font-size: 25px;
+    width:98%;
+    text-align: center;
+    background : gray;
+    color:darkred;
+    padding: 1%;
+    font-family: Segoe Ui;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.controlPanelTitle {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    font-size: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0px;
+    cursor: default;
+}
+
+.controlPanelName {
+    position: absolute;
+    top: 16%;
+    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    cursor: default;
+}
+
+
+/*11% midis tekstit dhe vleres*/
+
+.controlPanelNameInput {
+    position: absolute;
+    top: 27%;
+    width: 100%;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+}
+
+/*3.5% midis tekstit dhe fotos per ruajtje*/
+
+.controlPanelNameSave {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 19.5%;
+    left: 68%;
+    cursor: pointer;
+}
+
+/*17% midis tekstit dhe tekstit tjeter*/
+
+.controlPanelAmount {
+    position: absolute;
+    top: 36%;
+    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    cursor: default;
+}
+
+.controlPanelAmountInput {
+    position: absolute;
+    top: 47%;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    font-weight: 700;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.controlPanelAmountSave {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 39.5%;
+    left: 68%;
+    cursor: pointer;
+}
+
+.controlPanelLocation {
+    position: absolute;
+    top: 56%;
+    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    cursor: default;
+}
+
+.controlPanelLocationInput {
+    position: absolute;
+    top: 67%;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    font-weight: 700;
+}
+
+.controlPanelLocationSave {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 59.5%;
+    left: 68%;
+    cursor: pointer;
+}
+
+.controlPanelGroupsIn {
+    position: absolute;
+    top: 76%;
+    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    cursor: default;
+}
+
+.controlPanelComboBox {
+    position: absolute;
+    top: 79.5%;
+    left:10%;
+    width: 25%;
+}
+
+.controlPanelBox{
+    position: absolute;
+    top: 86%;
+    width: 100%;
+    height: 13%;
+    text-align: center;
+}
+
+
+.controlPanelGroup{
+    display: inline;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 2px;
+    color: darkred;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Segoe UI";
+    cursor: pointer;
+}
+
+.controlPanelGroupSpacer{
+    display: inline;
+    font-weight: 700;
+}
+
+.controlPanelGroupsSave {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 79.5%;
+    left: 68%;
+    cursor: pointer;
+}
+
+.addGroupButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    background: white;
+    border-radius: 5px;
+}
+
+.addArticleButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    background: white;
+    border-radius: 5px;
+}
+
+.saveButton {
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    width: 50%;
+    font-size: 18px;
+    background: white;
+    font-family: 'Segoe UI';
+}

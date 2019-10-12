@@ -1,0 +1,23 @@
+{
+  "name": "newapp",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "",
+    "build": "electron-packager . Domi"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "faton domi",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.0.2",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^12.1.0"
+  }
+}
