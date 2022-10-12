@@ -18,6 +18,6 @@
     "mysql": "^2.16.0"
   },
   "devDependencies": {
-    "electron-packager": "^12.1.0"
+    "electron-packager": "^16.0.0"
   }
 }
